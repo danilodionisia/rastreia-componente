@@ -1,8 +1,8 @@
 <?php
 
-    namespace model\ProdutoDAL;
+    namespace admin\model\ProdutoDAL;
 
-use model\Produto\Produto;
+use admin\model\Produto\Produto;
 
 class ProdutoDAL extends Produto{
 
@@ -15,10 +15,11 @@ class ProdutoDAL extends Produto{
     }
 
     public function select(){
+        self::getConnection();
 
     }
 
     public function delete(){
-        
+
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-    namespace model\DAL;
+    namespace admin\model\DAL;
 
     class DAL{
 

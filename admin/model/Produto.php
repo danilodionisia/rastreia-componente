@@ -1,7 +1,7 @@
 <?php 
-    namespace model\Produto;
+    namespace admin\model\Produto;
 
-use model\DAL\DAL;
+use admin\model\DAL\DAL;
 
 class Produto extends DAL{
 
